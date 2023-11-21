@@ -1,0 +1,254 @@
+[{
+  "groupname": "ghair4",
+  "termidlst": [135, 144, 175],
+  "orglst": [{
+    "orgname": "兰谷花卉",
+    "deviceidlst": ["LGHH003", "LGHH004", "LGHH001", "LGHH002"]
+  },
+    {
+      "orgname": "台湾农民",
+      "deviceidlst": ["nj214882101904", "nj214882101902", "nj214882101903", "nj214882101901"]
+    },
+    {
+      "orgname": "长干室外气象站",
+      "deviceidlst": ["NJCGNC2023111"]
+    },
+    {
+      "orgname": "三搏",
+      "deviceidlst": ["sbny001", "sbny002"]
+    },
+    {
+      "orgname": "桂香园",
+      "deviceidlst": ["JITEUI3200000001", "JITEUI3200000002", "JITEUI3200000003", "JITEUI3200000004"]
+    },
+    {
+      "orgname": "丰硕空气",
+      "deviceidlst": ["FS20231018H67Air03", "FS20231018H67Air06", "FS20231018H68Air08", "FS20231018H68Air09", "FS20231018H68Air04"]
+    }
+  ]
+},
+  {
+    "groupname": "ghairsoil5",
+    "termidlst": [134, 145, 205],
+    "orglst": [{
+      "orgname": "石塘蔬菜",
+      "deviceidlst": ["nj307072261610", "nj307072261609", "nj336093863208", "nj307072261607", "nj307072261606", "nj307072261605", "nj307072261604", "nj307072261603", "nj307072261602", "nj307072261601"]
+    },
+      {
+        "orgname": "万村百果园",
+        "deviceidlst": ["nj199752644902", "199752644903", "nj199752644904", "nj199752644905", "nj199752644906", "nj199752644907", "nj199752644908"]
+      },
+      {
+        "orgname": "凯进",
+        "deviceidlst": ["JY272048472sVVkM", "JY272048477hp1g0", "JY272048476HCvUg", "JY2720484752QXgg"]
+      }
+    ]
+  },
+  {
+    "groupname": "ghairsoil5_2",
+    "termidlst": [134, 145, 199],
+    "orglst": [{
+      "orgname": "睿汐蓝",
+      "deviceidlst": ["nj305912772808", "nj305912772801", "nj305912772804", "nj305912772802", "nj305912772803", "nj305912772806", "nj305912772807", "nj305912772805"]
+    },
+      {
+        "orgname": " 晟鲜蔬菜 ",
+        "deviceidlst": ["nj262074009206", "262074009204", "nj262074009205", "nj262074009202", "nj262074009201", "nj262074009203"]
+      },
+      {
+        "orgname": "草雨田瓜果 ",
+        "deviceidlst": ["nj336093863208", "nj336093863207", "nj336093863206", "nj336093863205", "nj336093863204", "nj336093863203", "nj336093863202", "nj336093863201"]
+      }
+    ]
+  },
+  {
+    "groupname": "ghairsoil4_1",
+    "termidlst": [135, 144, 206],
+    "orglst": [{
+      "orgname": "汤山翠谷",
+      "deviceidlst": ["nj277483589501", "nj277483589502", "nj277483589503"]
+    }]
+  },
+  {
+    "groupname": "ghairsoil4_2",
+    "termidlst": [135, 144, 206],
+    "orglst": [{
+      "orgname": "啬园农业",
+      "deviceidlst": ["nj218682225304", "nj218682225303", "nj218682225302", "nj218682225301"]
+    }]
+  },
+  {
+    "groupname": "ghairsoil4_3",
+    "termidlst": [136,277],
+    "orglst": [{
+      "orgname": "星点木",
+      "deviceidlst": ["KWCAXDYL20230001", "KWCAXDYL20230002", "KWCAXDYL20230003", "KWCAXDYL20230004", "KWCAXDYL20230005", "KWCAXDYL20230006", "KWCAXDYL20230007", "KWCAXDYL20230008"]
+    }]
+  },
+  {
+    "groupname": "ghairsoil6_1",
+    "termidlst": [135, 147, 175, 201],
+    "orglst": [{
+      "orgname": "花溪农业",
+      "deviceidlst": ["nj334572833002", "nj334572833004", "nj334572833005", "nj334572833003", "nj334572833001"]
+    },
+      {
+        "orgname": "盛庄",
+        "deviceidlst": ["NJJNShengZhuangReg0008011", "NJJNShengZhuangReg0008010"]
+      }]
+  },
+  {
+    "groupname": "ghairsoil6_2",
+    "termidlst": [135, 147, 201],
+    "orglst": [{
+      "orgname": "科沃农业",
+      "deviceidlst": ["KWCAKWNY0A211106", "KWCAKWNY0A211105", "KWCAKWNY0A211104", "KWCAKWNY0A211103", "KWCAKWNY0A211102", "KWCAKWNY0A211101"]
+    }]
+  },
+  {
+    "groupname": "ghairsoil7",
+    "termidlst": [135, 147, 175, 203],
+    "orglst": [{
+      "orgname": "糖糖果蔬",
+      "deviceidlst": ["SHYN003600002412", "SHYN003600002412", "SHYN003600002412", "SHYN003600002412"]
+    }]
+  },
+  {
+    "groupname": "ghairsoil6_3",
+    "termidlst": [136, 149, 203],
+    "orglst": [{
+      "orgname": "靓绿农副",
+      "deviceidlst": ["JSJiuSll20210504", "JSJiuSll20210503", "JSJiuSll20210502", "JSJiuSll20210501"]
+    }, {
+      "orgname": "思根家",
+      "deviceidlst": ["JSJiuSsg20210304", "JSJiuSsg20210303", "JSJiuSsg20210302", "JSJiuSsg20210301"]
+    }, {
+      "orgname": "天使",
+      "deviceidlst": ["NJPKJiuSTS20211101"]
+    }]
+  },
+  {
+    "groupname": "ghsoil3",
+    "termidlst": [136, 204],
+    "orglst": [
+      {
+        "orgname": "台创",
+        "deviceidlst": ["20201667", "20201681", "20201682", "20201670", "20201669", "20201668"]
+      },
+      {
+        "orgname": "丰硕土壤",
+        "deviceidlst": ["FS20231018H67Soil03", "FS20231018H67Soil06", "FS20231018H68Soil08", "FS20231018H68Soil09", "FS20231018H68Soil04"]
+      },
+      {
+        "orgname": "农汇谷",
+        "deviceidlst": ["JITLoRaSoil111", "JITLoRaSoil112", "JITLoRaSoil113", "JITLoRaSoil114", "JITLoRaSoil115", "JITLoRaSoil116", "JITLoRaSoil117", "JITLoRaSoil118", "JITLoRaSoil119", "JITLoRaSoil120", "JITLoRaSoil121", "JITLoRaSoil122", "JITLoRaSoil123", "JITLoRaSoil124"]
+      }
+    ]
+  },
+  {
+    "groupname": "ghsoil2",
+    "termidlst": [204],
+    "orglst": [{
+      "orgname": "阜东",
+      "deviceidlst": ["ST-TR-WS"]
+    }]
+  },
+  {
+    "groupname": "ghairsoil7_2",
+    "termidlst": [136, 149, 175, 204],
+    "orglst": [{
+      "orgname": "台创",
+      "deviceidlst": ["20201667", "20201681", "20201682", "20201670", "20201669", "20201668"]
+    }]
+  },
+  {
+    "groupname": "ghairsoil7_3",
+    "termidlst": [136, 149, 175, 199],
+    "orglst": [
+      {
+      "orgname": "本味源",
+      "deviceidlst": ["AUTOWEA202311010952", "AUTOSENSOR202311010952", "AUTOSENSOR202311010953", "AUTOSENSOR202311010954"]
+      },
+      {
+      "orgname": "蔬香源",
+      "deviceidlst": ["AUTOSENSOR202311011021", "AUTOSENSOR202311011023", "AUTOSENSOR202311011024",
+        "AUTOSENSOR202311011026", "AUTOSENSOR202311011027", "AUTOSENSOR202311011021",
+        "AUTOSENSOR202311011028", "AUTOSENSOR202311011029"]
+      }]
+  },
+
+  {
+    "groupname": "ghair3",
+    "termidlst": [136, 149],
+    "orglst": [{
+      "orgname": "食正农业",
+      "deviceidlst": ["TengseEB3E12DE8C37", "TengseFA884BA8F6C7"]
+    },
+      {
+        "orgname": "上坊林场",
+        "deviceidlst": ["TengseMPQ22FK0A0106680P005"]
+      },
+      {
+        "orgname": "小西湖",
+        "deviceidlst": ["LINGKEMPQ22FK0A0106680P001"]
+      }]
+  },
+  {
+    "groupname": "aquawa3",
+    "termidlst": [278],
+    "orglst": [{
+      "orgname": "五城圩",
+      "deviceidlst": ["JY8521084987zndz", "JY852108493s8aTq", "JY852108497b7GE1"]
+    }, {
+      "orgname": "顺鹏 ",
+      "deviceidlst": ["JY852108496VnZGx", "JY85210849578C3g", "JY852018494Y37ug", "JY852108499gWrNX"]
+    },{
+      "orgname": "老人坝",
+      "deviceidlst": ["ZY2022032900001", "ZY20220329000011", "ZY20220329000021", "ZY20220329000031"]
+    },{
+      "orgname": "王成龙",
+      "deviceidlst": ["NJJNXIELIREG1000013"]
+    }]
+  },
+  {
+    "groupname": "aquawa3_1",
+    "termidlst": [277],
+    "orglst": [{
+      "orgname": "荣新",
+      "deviceidlst": ["KWCARXCJ0A211101", "KWCARXCJ0A211102"]
+    }]
+  },
+  {
+    "groupname": "aquawa2",
+    "termidlst": [279],
+    "orglst": [{
+      "orgname": "刘成勇",
+      "deviceidlst": ["SNZHYJYNJ12635432-1", "SNZHYJYNJ12635432-2"]
+    }]
+  },
+  {
+    "groupname": "aquawa4",
+    "termidlst": [279],
+    "orglst": [
+      {
+        "orgname": "江宁区农业农村局",
+        "deviceidlst": ["YF-QXZ-862289055399980", "QJ-T-AABB3330CCDD", "QJ-T-AABB3330CCDD"]
+      },
+      {
+        "orgname": "睿艺",
+        "deviceidlst": ["NJHX004", "NJHX005", "NJHX006"]
+      },
+      {
+        "orgname": "王俊",
+        "deviceidlst": ["wjjtncszjc0001", "wjjtncszjc0002", "wjjtncszjc0003"]
+      }]
+  },
+  {
+    "groupname": "aquawa5",
+    "termidlst": [277],
+    "orglst": [{
+      "orgname": "坤泰",
+      "deviceidlst": ["JITEUI3100000006", "JITEUI3100000007", "JITEUI310000000C", "JITEUI310000000D"]
+    }]
+  }
+]

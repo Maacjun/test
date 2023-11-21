@@ -1,0 +1,127 @@
+####服务注册到eureka注册中心的地址
+eureka:
+  client:
+    service-url:
+######
+#       defaultZone: http://111.229.163.181:8761/eureka
+#      defaultZone: http://111.229.140.47:8761/eureka
+      defaultZone: http://localhost:8761/eureka
+    ###因为该应用为服务提供者，是eureka的一个客户端，需要注册到注册中心
+    register-with-eureka: true
+    ###是否需要从eureka上检索服务
+    fetch-registry: true
+feign:
+  okhttp:
+    enabled: true
+server:
+  port: 8009
+
+#debug: true
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+  application:
+    name: micro-iot #指定服务名
+  # 数据库连接
+  datasource:
+    url: jdbc:mysql://localhost:3306/iot?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+#    url: jdbc:mysql://192.168.100.177:3306/shuichan?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+#    url: jdbc:mysql://192.168.100.150:24/shuichan?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: nsi_XU811  #nsi-xu811  #nsi_XU811
+#    password: jit-dev1217
+#    password: jitnsi
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: org.apache.commons.dbcp2.BasicDataSource
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+##################
+#  Mina 配置
+##################
+#jit工控机上报端口号、采集最长上报周期单位分钟
+jit_embed:
+  port: 7080
+#  rptperiod: 300
+
+  #农芯终端上报端口号、采集最长上报周期单位分钟
+ep400:
+  port: 10011
+#  rptperiod: 3600
+
+#易通汇联4G网关上报端口号、采集最长上报周期单位15分钟
+ecomm_gw:
+  port: 20011
+
+#lora采集上报周期
+lora:
+#  seeed_rptperiod: 3600
+  plantapp: seeed-application
+
+#  easycomm_rptperiod: 300
+  aquaapp: aq20-app
+  wthrapp: WeatherStation
+  aqctlapp: Relay-Ctrl
+  ag485app: ag21-app
+  smartapp: smart21
+  at22app: AT22
+##################
+#  MQTT 配置
+##################
+mqtt:
+  # 用户名
+  username: admin
+  # 密码
+  password: password
+  # 推送信息的连接地址，如果有多个，用逗号隔开，如：tcp://127.0.0.1:61613,tcp://192.168.1.61:61613
+  url: tcp://localhost:1883
+#  url: tcp://192.168.100.150:1883
+  #生产者
+  producer:
+    # 连接服务器默认客户端ID
+    clientId: mqttProducer
+   # 默认的推送主题，实际可在调用接口时指定
+    defaultTopic: application/$/device/?/tx
+  consumer:
+    # 连接服务器默认客户端ID
+    clientId: mqttConsumer3
+    # 默认的接收主题，可以订阅多个Topic，逗号分隔
+#    defaultTopic: application/1/device/+/rx,application/2/device/+/rx
+    defaultTopic: application/1/device/+/rx,application/2/device/+/rx,application/3/device/+/rx,application/5/device/+/rx,application/6/device/+/rx,application/7/device/+/rx,application/8/device/+/rx,application/10/device/+/rx,application/11/device/+/rx
+
+influxdb:
+  url: http://localhost:8086
+#  url: http://111.229.163.181:8086
+  username: root
+  password: root
+  database: agri_iot
+  retention-policy: autogen
+  connect-timeout: 5
+  read-timeout: 5
+  write-timeout: 5
+  gzip: true
+
+# mybatis配置
+mybatis:
+  mapper-locations: classpath:mybatis/*mapper.xml
+  type-aliases-package: edu.jit.nsi.iot_ms.domain
+# mybatis-plus 配置
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+  global-config:
+    db-column-underline: true
+    id-type: 0
+    capital-mode: true
+# 分页插件
+pagehelper:
+  reasonable: false
+  support-methods-arguments: true
+  params: count=countSql
+  row-bounds-with-count: true
+  helper-dialect: mysql
+## 日志
+logging:
+  level:
+    com.jit.aquaculture: info

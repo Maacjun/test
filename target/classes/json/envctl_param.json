@@ -1,0 +1,86 @@
+[
+  {
+    "env": "do",
+    "wnup":12.0,
+    "wndw":4.0,
+    "actup":14.0,
+    "actdw":3.0
+  },
+  {
+    "env": "illu",
+    "wnup":2.0,
+    "wndw":0.6,
+    "actup":3.0,
+    "actdw":0.4
+  },
+  {
+    "env": "temp",
+    "wnup":35.0,
+    "wndw":5.0,
+    "actup":38.0,
+    "actdw":4.0
+  },
+  {
+    "env": "humi",
+    "wnup":90.0,
+    "wndw":10.0,
+    "actup":95.0,
+    "actdw":5.0
+  },
+  {
+    "env": "waTemp",
+    "wnup":32.0,
+    "wndw":10.0,
+    "actup":35.0,
+    "actdw":5.0
+  },
+  {
+    "env": "liquidLevel",
+    "wnup":3.0,
+    "wndw":2.0,
+    "actup":4.0,
+    "actdw":1.0
+  },
+  {
+    "env": "uv",
+    "wnup":0.0,
+    "wndw":2.0,
+    "actup":0.0,
+    "actdw":1.0
+  },
+  {
+    "env": "orp",
+    "wnup":3.0,
+    "wndw":10.0,
+    "actup":80.0,
+    "actdw":50.0
+  },
+  {
+    "env": "ec",
+    "wnup":2.0,
+    "wndw":0.6,
+    "actup":2.5,
+    "actdw":0.5
+  },
+  {
+    "env": "mix",
+    "wnup":0.0,
+    "wndw":0.0,
+    "actup":0.0,
+    "actdw":0.0
+  },
+  {
+    "env": "windSpd",
+    "wnup":10.0,
+    "wndw":5.0,
+    "actup":20.0,
+    "actdw":3.0
+  },
+  {
+    "env": "soilHumi",
+    "wnup": 80.0,
+    "wndw": 50.0,
+    "actup": 90.0,
+    "actdw": 40.0
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "type": "RELAY_DMA4",
+    "fcode": 5,
+    "road": 4,
+    "on": 65280,
+    "off": 0
+  },
+  {
+    "type": "RELAY_DMA8",
+    "fcode": 5,
+    "road": 8,
+    "on": 65280,
+    "off": 0
+  },
+  {
+    "type": "RELAY_DMA16",
+    "fcode": 5,
+    "road": 16,
+    "on": 65280,
+    "off": 0
+  },
+  {
+    "type": "RELAY_ZN7",
+    "fcode": 5,
+    "road": 7,
+    "on": 65280,
+    "off": 0
+  }
+]

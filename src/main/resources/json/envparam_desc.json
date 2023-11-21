@@ -1,0 +1,548 @@
+[
+  {
+    "env": "temp",
+    "suffix": "℃",
+    "to_usr": true,
+    "desc": "空气温度"
+  },
+  {
+    "env": "humi",
+    "suffix": "%",
+    "to_usr": true,
+    "desc": "空气湿度"
+  },
+  {
+    "env": "illu",
+    "suffix": "klx",
+    "to_usr": true,
+    "desc": "光照度"
+  },
+  {
+    "env": "co2",
+    "suffix": "10ppm",
+    "to_usr": true,
+    "desc": "二氧化碳含量"
+  },
+
+  {
+    "env": "airPre",
+    "suffix": "kpa",
+    "to_usr": true,
+    "desc": "气压"
+  },
+  {
+    "env": "windDrct",
+    "suffix": "°",
+    "to_usr": true,
+    "desc": "风向"
+  },
+  {
+    "env": "windSpd",
+    "suffix": "m/s",
+    "to_usr": true,
+    "desc": "风速"
+  },
+  {
+    "env": "rain24Hr",
+    "suffix": "mm",
+    "to_usr": true,
+    "desc": "24小时降雨量"
+  },
+  {
+    "env": "waTemp",
+    "suffix": "℃",
+    "to_usr": true,
+    "desc": "水温"
+  },
+  {
+    "env": "ph",
+    "suffix": "",
+    "to_usr": true,
+    "desc": "ph值"
+  },
+  {
+    "env": "ec",
+    "suffix": "mg/L",
+    "to_usr": true,
+    "desc": "水电导率"
+  },
+  {
+    "env": "ec_m",
+    "suffix": "mS/cm",
+    "to_usr": true,
+    "desc": "水电导率ms"
+  },
+  {
+    "env": "ec_u",
+    "suffix": "100uS/cm",
+    "to_usr": true,
+    "desc": "水电导率uS"
+  },
+  {
+    "env": "orp",
+    "suffix": "mv",
+    "to_usr": true,
+    "desc": "氧化还原电位"
+  },
+  {
+    "env": "tds",
+    "suffix": "10ppm",
+    "to_usr": false,
+    "desc": "水总溶解固体"
+  },
+  {
+    "env": "salt",
+    "suffix": "0.01ppt",
+    "to_usr": false,
+    "desc": "水盐度"
+  },
+  {
+    "env": "do",
+    "suffix": "mg/L",
+    "to_usr": true,
+    "desc": "溶解氧"
+  },
+  {
+    "env": "doFull",
+    "suffix": "%",
+    "to_usr": false,
+    "desc": "溶解氧饱和度"
+  },
+  {
+    "env": "doFull2",
+    "suffix": "mg/L",
+    "to_usr": false,
+    "desc": "溶解氧饱和度2"
+  },
+  {
+    "env": "doSimu",
+    "suffix": "mv",
+    "to_usr": false,
+    "desc": "溶解氧电压模拟量"
+  },
+  {
+    "env": "phSimu",
+    "suffix": "mv",
+    "to_usr": false,
+    "desc": "ph电压模拟量"
+  },
+  {
+    "env": "doAD",
+    "suffix": "-",
+    "to_usr": false,
+    "desc": "溶解氧AD值"
+  },
+  {
+    "env": "phAD",
+    "suffix": "-",
+    "to_usr": false,
+    "desc": "ph值AD值"
+  },
+  {
+    "env": "soilHumi",
+    "suffix": "%",
+    "to_usr": true,
+    "desc": "土壤湿度"
+  },
+  {
+    "env": "soilTemp",
+    "suffix": "℃",
+    "to_usr": true,
+    "desc": "土壤温度"
+  },
+  {
+    "env": "soilTDS",
+    "suffix": "mg/L",
+    "to_usr": true,
+    "desc": "土壤盐分"
+  },
+  {
+    "env": "soilEC",
+    "suffix": "10uS/cm",
+    "to_usr": true,
+    "desc": "土壤电导率"
+  },
+  {
+    "env": "ltQtm",
+    "suffix": "μmol/m2/s",
+    "to_usr": true,
+    "desc": "光合作用量"
+  },
+  {
+    "env": "rad",
+    "suffix": "w/m2",
+    "to_usr": true,
+    "desc": "辐射强度"
+  },
+  {
+    "env": "ss",
+    "suffix": "ntu",
+    "to_usr": true,
+    "desc": "浊度"
+  },
+  {
+    "env": "nh4",
+    "suffix": "0.1mg/L",
+    "to_usr": true,
+    "desc": "氨氮"
+  },
+  {
+    "env": "no3",
+    "suffix": "mg/L",
+    "to_usr": true,
+    "desc": "硝氮"
+  },
+  {
+    "env": "btyPer",
+    "suffix": "%",
+    "to_usr": false,
+    "desc": "终端电量百分比"
+  },
+  {
+    "env": "volt",
+    "suffix": "v",
+    "to_usr": false,
+    "desc": "终端电池电压"
+  },
+  {
+    "env": "relay_sta",
+    "suffix": "-",
+    "to_usr": false,
+    "desc": "dma继电器状态"
+  },
+  {
+    "env": "seq",
+    "suffix": "",
+    "to_usr": false,
+    "desc": "终端消息序列号"
+  },
+  {
+    "env": "csq",
+    "suffix": "dbm",
+    "to_usr": false,
+    "desc": "4G网关信号强度"
+  },
+  {
+    "env": "waTemp1",
+    "suffix": "℃",
+    "to_usr": true,
+    "desc": "水温1"
+  },
+  {
+    "env": "waTemp2",
+    "suffix": "℃",
+    "to_usr": true,
+    "desc": "水温2"
+  },
+  {
+    "env": "waTemp3",
+    "suffix": "℃",
+    "to_usr": true,
+    "desc": "水温3"
+  },
+  {
+    "env": "waTemp4",
+    "suffix": "℃",
+    "to_usr": true,
+    "desc": "水温4"
+  },
+  {
+    "env": "waTemp5",
+    "suffix": "℃",
+    "to_usr": true,
+    "desc": "水温5"
+  },
+  {
+    "env": "waTemp6",
+    "suffix": "℃",
+    "to_usr": true,
+    "desc": "水温6"
+  },
+  {
+    "env": "waTemp7",
+    "suffix": "℃",
+    "to_usr": true,
+    "desc": "水温7"
+  },
+  {
+    "env": "waTemp8",
+    "suffix": "℃",
+    "to_usr": true,
+    "desc": "水温8"
+  },
+  {
+    "env": "waTemp9",
+    "suffix": "℃",
+    "to_usr": true,
+    "desc": "水温9"
+  },
+  {
+    "env": "waTemp10",
+    "suffix": "℃",
+    "to_usr": true,
+    "desc": "水温10"
+  },
+  {
+    "env": "rain15Min",
+    "suffix": "℃",
+    "to_usr": true,
+    "desc": "15分钟降雨量"
+  },
+  {
+    "env": "windSpd_jc",
+    "suffix": "m/s",
+    "to_usr": true,
+    "desc": "风速"
+  },
+  {
+  "env": "windDrct_jc",
+  "suffix": "-",
+  "to_usr": true,
+  "desc": "16风向"
+  },
+  {
+    "env": "engy_dlx",
+    "suffix": "KWH",
+    "to_usr": true,
+    "desc": "组合有功总电能"
+  },
+  {
+    "env": "pwr",
+    "suffix": "KW",
+    "to_usr": true,
+    "desc": "瞬时总有功功率"
+  },
+  {
+    "env": "voltA",
+    "suffix": "V",
+    "to_usr": true,
+    "desc": "A相电压"
+  },
+  {
+    "env": "voltB",
+    "suffix": "V",
+    "to_usr": true,
+    "desc": "B相电压"
+  },
+  {
+    "env": "voltC",
+    "suffix": "V",
+    "to_usr": true,
+    "desc": "C相电压"
+  },
+  {
+    "env": "currA",
+    "suffix": "A",
+    "to_usr": true,
+    "desc": "A相电流"
+  },
+  {
+    "env": "currB",
+    "suffix": "A",
+    "to_usr": true,
+    "desc": "B相电流"
+  },
+  {
+    "env": "currC",
+    "suffix": "A",
+    "to_usr": true,
+    "desc": "C相电流"
+  },
+  {
+    "env": "vo1",
+    "suffix": "V",
+    "to_usr": true,
+    "desc": "电压1"
+  },
+  {
+    "env": "vo2",
+    "suffix": "V",
+    "to_usr": true,
+    "desc": "电压2"
+  },
+  {
+    "env": "vo3",
+    "suffix": "V",
+    "to_usr": true,
+    "desc": "电压3"
+  },
+  {
+    "env": "vo4",
+    "suffix": "V",
+    "to_usr": true,
+    "desc": "电压5"
+  },
+  {
+    "env": "vo6",
+    "suffix": "V",
+    "to_usr": true,
+    "desc": "电压6"
+  },
+  {
+    "env": "vo7",
+    "suffix": "V",
+    "to_usr": true,
+    "desc": "电压7"
+  },
+  {
+    "env": "vo8",
+    "suffix": "V",
+    "to_usr": true,
+    "desc": "电压8"
+  },
+  {
+    "env": "dcec1",
+    "suffix": "A",
+    "to_usr": true,
+    "desc": "直流电电流1"
+  },
+  {
+    "env": "dcec2",
+    "suffix": "A",
+    "to_usr": true,
+    "desc": "直流电电流2"
+  },
+  {
+    "env": "dcec3",
+    "suffix": "A",
+    "to_usr": true,
+    "desc": "直流电电流3"
+  },
+  {
+    "env": "dcec4",
+    "suffix": "A",
+    "to_usr": true,
+    "desc": "直流电电流4"
+  },
+  {
+    "env": "dcec5",
+    "suffix": "A",
+    "to_usr": true,
+    "desc": "直流电电流5"
+  },
+  {
+    "env": "dcec6",
+    "suffix": "A",
+    "to_usr": true,
+    "desc": "直流电电流6"
+  },
+  {
+    "env": "dcec7",
+    "suffix": "A",
+    "to_usr": true,
+    "desc": "直流电电流7"
+  },
+  {
+    "env": "dcec8",
+    "suffix": "A",
+    "to_usr": true,
+    "desc": "直流电电流8"
+  },
+  {
+    "env": "dcec9",
+    "suffix": "A",
+    "to_usr": true,
+    "desc": "直流电电流9"
+  },
+  {
+    "env": "dcec10",
+    "suffix": "A",
+    "to_usr": true,
+    "desc": "直流电电流10"
+  },
+  {
+    "env": "dcec11",
+    "suffix": "A",
+    "to_usr": true,
+    "desc": "直流电电流11"
+  },
+  {
+    "env": "dcec12",
+    "suffix": "A",
+    "to_usr": true,
+    "desc": "直流电电流12"
+  },
+  {
+    "env": "acec1",
+    "suffix": "A",
+    "to_usr": true,
+    "desc": "交流电电流1"
+  },
+  {
+    "env": "acec2",
+    "suffix": "A",
+    "to_usr": true,
+    "desc": "交流电电流2"
+  },
+  {
+  "env": "acec3",
+  "suffix": "A",
+  "to_usr": true,
+  "desc": "交流电电流3"
+  },
+  {
+    "env": "acec4",
+    "suffix": "A",
+    "to_usr": true,
+    "desc": "交流电电流4"
+  }, {
+  "env": "acec5",
+  "suffix": "A",
+  "to_usr": true,
+  "desc": "交流电电流5"
+},
+  {
+    "env": "acec6",
+    "suffix": "A",
+    "to_usr": true,
+    "desc": "交流电电流6"
+  },
+  {
+    "env": "acec7",
+    "suffix": "A",
+    "to_usr": true,
+    "desc": "交流电电流7"
+  },
+  {
+    "env": "acec8",
+    "suffix": "A",
+    "to_usr": true,
+    "desc": "交流电电流8"
+  },
+  {
+    "env": "acec9",
+    "suffix": "A",
+    "to_usr": true,
+    "desc": "交流电电流9"
+  },
+  {
+    "env": "acec10",
+    "suffix": "A",
+    "to_usr": true,
+    "desc": "交流电电流10"
+  },
+  {
+    "env": "acec11",
+    "suffix": "A",
+    "to_usr": true,
+    "desc": "交流电电流11"
+  },
+  {
+    "env": "acec12",
+    "suffix": "A",
+    "to_usr": true,
+    "desc": "交流电电流12"
+  },
+  {
+    "env": "liquidlevel",
+    "suffix": "m",
+    "to_usr": true,
+    "desc": "液位"
+  },
+  {
+    "env": "chlorophy",
+    "suffix": "ug/L",
+    "to_usr": true,
+    "desc": "叶绿素"
+  }
+]

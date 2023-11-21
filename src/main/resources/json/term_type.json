@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "type": "工控机自定义终端（485接口）",
+    "manu": "jit",
+    "desc": "工控机+各类485传感器"
+  },
+  {
+    "id": 2,
+    "type": "矽递LoRa固定终端",
+    "manu": "seeed",
+    "desc": "LoRa固定式终端：支持seeed各类终端"
+  },
+  {
+    "id": 3,
+    "type": "农芯固定终端",
+    "manu": "nongxin",
+    "desc": "农芯固定式终端：农芯EP400终端六个环境指标"
+  },
+  {
+    "id": 4,
+    "type": "易通LoRa固定终端",
+    "manu": "easycomm",
+    "desc": "LoRa固定式终端：支持easycomm水质和气象站终端"
+  },
+  {
+    "id": 5,
+    "type": "易通RS485自定义终端",
+    "manu": "easycomm",
+    "desc": "LoRa自定义485终端：支持通用485传感器,485继电器"
+  },
+  {
+    "id": 6,
+    "type": "易通4G固定终端",
+    "manu": "easycomm",
+    "desc": "4G固定终端：支持485气象站和土壤传感器"
+  }
+]

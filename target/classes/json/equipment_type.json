@@ -1,0 +1,37 @@
+[
+  {
+    "type": "do"
+  },
+
+  {
+    "type": "waTemp"
+  },
+
+  {
+    "type": "temp"
+  },
+  {
+    "type": "humi"
+  },
+  {
+    "type": "illu"
+  },
+  {
+    "type": "liquidLevel1"
+  },
+  {
+    "type": "liquidLevel2"
+  },
+  {
+    "type": "liquidLevel"
+  },
+  {
+    "type": "uv"
+  },
+  {
+    "type": "orp"
+  },
+  {
+    "type": "soilHumi"
+  }
+]

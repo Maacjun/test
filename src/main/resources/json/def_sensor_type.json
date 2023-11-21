@@ -1,0 +1,824 @@
+[
+  {
+    "type": "LIQUID_LEVEL",
+    "fcode": 3,
+    "reg": [4],
+    "len": 1,
+    "rspvalue": [
+      {
+        "stype": "liquidLevel",
+        "value": [3,4],
+        "unit": 10
+      }
+    ]
+  },
+
+  {
+    "type": "SOIL_HK",
+    "fcode": 3,
+    "reg": [0],
+    "len": 4,
+    "rspvalue": [
+      {
+        "stype": "soilTemp",
+        "value": [3,4],
+        "unit": 10
+      },
+      {
+        "stype": "soilHumi",
+        "value": [5,6],
+        "unit": 10
+      },
+      {
+        "stype": "soilTDS",
+        "value": [7,8],
+        "unit": 1
+      },
+      {
+        "stype": "soilEC",
+        "value": [9,10],
+        "unit": 1
+      }
+    ]
+  },
+
+  {
+    "type": "TH_HK",
+    "fcode": 3,
+    "reg": [0],
+    "len": 2,
+    "rspvalue": [
+      {
+        "stype": "temp",
+        "value": [3,4],
+        "unit": 10
+      },
+      {
+        "stype": "humi",
+        "value": [5,6],
+        "unit": 10
+      }
+    ]
+  },
+
+  {
+    "type": "ILLU_HK",
+    "fcode": 3,
+    "reg": [0],
+    "len": 1,
+    "rspvalue": [
+      {
+        "stype": "illu",
+        "value": [3,4,5,6],
+        "unit": 1000
+      }
+    ]
+  },
+
+  {
+    "type": "CO2_HK",
+    "fcode": 3,
+    "reg": [0],
+    "len": 1,
+    "rspvalue": [
+      {
+        "stype": "co2",
+        "value": [3,4],
+        "unit": 10
+      }
+    ]
+  },
+
+  {
+    "type": "DO_ZN",
+    "fcode": 4,
+    "reg": [1],
+    "len": 1,
+    "rspvalue": [
+      {
+        "stype": "do",
+        "value": [3,4],
+        "unit": 100
+      }
+    ]
+  },
+
+  {
+    "type": "PH_ZN",
+    "fcode": 4,
+    "reg": [1],
+    "len": 2,
+    "rspvalue": [
+      {
+        "stype": "ph",
+        "value": [3,4],
+        "unit": 100
+      },
+      {
+        "stype": "waTemp",
+        "value": [5,6],
+        "unit": 100
+      }
+    ]
+  },
+
+  {
+    "type": "DO_WS",
+    "fcode": 3,
+    "reg": [1],
+    "len": 2,
+    "rspvalue": [
+      {
+        "stype": "waTemp",
+        "value": [3,4],
+        "unit": 10
+      },
+      {
+        "stype": "do",
+        "value": [5,6],
+        "unit": 10
+      }
+    ]
+  },
+  {
+    "type": "DO_WS_AD",
+    "fcode": 3,
+    "reg": [0],
+    "len": 4,
+    "rspvalue": [
+      {
+        "stype": "waTemp",
+        "value": [3,4],
+        "unit": 10
+      },
+      {
+        "stype": "do",
+        "value": [5,6],
+        "unit": 10
+      },
+      {
+        "stype": "doFull2",
+        "value": [7,8],
+        "unit": 10
+      },
+      {
+        "stype": "doAD",
+        "value": [9,10],
+        "unit": 1
+      }
+    ]
+  },
+  {
+    "type": "DO_SSRH",
+    "fcode": 3,
+    "reg": [0],
+    "len": 3,
+    "rspvalue": [
+      {
+        "stype": "waTemp",
+        "value": [3,4],
+        "unit": 10
+      },
+      {
+        "stype": "do",
+        "value": [5,6],
+        "unit": 100
+      },
+      {
+        "stype": "doFull",
+        "value": [7,8],
+        "unit": 10
+      }
+    ]
+  },
+  {
+    "type": "DO_SSRH_AD",
+    "fcode": 3,
+    "reg": [5],
+    "len": 1,
+    "rspvalue": [
+      {
+        "stype": "doSimu",
+        "value": [3,4],
+        "unit": 100
+      }
+    ]
+  },
+  {
+    "type": "PH_WS",
+    "fcode": 3,
+    "reg": [1],
+    "len": 1,
+    "rspvalue": [
+      {
+        "stype": "ph",
+        "value": [3,4],
+        "unit": 100
+      }
+    ]
+  },
+
+  {
+    "type": "EC_DJ",
+    "fcode": 3,
+    "reg": [0],
+    "len": 1,
+    "rspvalue": [
+      {
+        "stype": "ec",
+        "value": [3,4],
+        "unit": 1
+      }
+    ]
+  },
+
+  {
+    "type": "TH_DJ",
+    "fcode": 3,
+    "reg": [0],
+    "len": 2,
+    "rspvalue": [
+      {
+        "stype": "temp",
+        "value": [3,4],
+        "unit": 10
+      },
+      {
+        "stype": "humi",
+        "value": [5,6],
+        "unit": 10
+      }
+    ]
+  },
+
+  {
+    "type": "C02_DJ",
+    "fcode": 3,
+    "reg": [0],
+    "len": 1,
+    "rspvalue": [
+      {
+        "stype": "co2",
+        "value": [3,4],
+        "unit": 10
+      }
+    ]
+  },
+
+  {
+    "type": "ILLU_DJ",
+    "fcode": 3,
+    "reg": [0],
+    "len": 2,
+    "rspvalue": [
+      {
+        "stype": "illu",
+        "value": [3,4,5,6],
+        "unit": 1000
+      }
+    ]
+  },
+
+  {
+    "type": "EC_RK",
+    "fcode": 3,
+    "reg": [0],
+    "len": 3,
+    "rspvalue": [
+      {
+        "stype": "soilHumi",
+        "value": [3,4],
+        "unit": 10
+      },
+      {
+        "stype": "soilTemp",
+        "value": [5,6],
+        "unit": 10
+      },
+      {
+        "stype": "soilEC",
+        "value": [7,8],
+        "unit": 1
+      }
+    ]
+  },
+
+  {
+    "type": "EC_JC",
+    "fcode": 3,
+    "reg": [18],
+    "len": 4,
+    "rspvalue": [
+      {
+        "stype": "soilHumi",
+        "value": [3,4],
+        "unit": 10
+      },
+      {
+        "stype": "soilTemp",
+        "value": [5,6],
+        "unit": 10
+      },
+      {
+        "stype": "soilTDS",
+        "value": [7,8],
+        "unit": 1
+      },
+      {
+        "stype": "soilEC",
+        "value": [9,10],
+        "unit": 1
+      }
+    ]
+  },
+  {
+    "type": "TH_JC",
+    "fcode": 3,
+    "reg": [0],
+    "len": 2,
+    "rspvalue": [
+      {
+        "stype": "humi",
+        "value": [3,4],
+        "unit": 10
+      },
+      {
+        "stype": "temp",
+        "value": [5,6],
+        "unit": 10
+      }
+    ]
+  },
+  {
+    "type": "CO2_JC",
+    "fcode": 3,
+    "reg": [5],
+    "len": 1,
+    "rspvalue": [
+      {
+        "stype": "co2",
+        "value": [3,4],
+        "unit": 10
+      }
+    ]
+  },
+  {
+    "type": "ILLU_JC",
+    "fcode": 3,
+    "reg": [7],
+    "len": 2,
+    "rspvalue": [
+      {
+        "stype": "illu",
+        "value": [3,4,5,6],
+        "unit": 1
+      }
+    ]
+  },
+  {
+    "type": "DO_JC",
+    "fcode": 3,
+    "reg": [1],
+    "len": 2,
+    "rspvalue": [
+      {
+        "stype": "waTemp",
+        "value": [3,4],
+        "unit": 10
+      },
+      {
+        "stype": "do",
+        "value": [5,6],
+        "unit": 100
+      }
+    ]
+  },
+  {
+    "type": "PH_JC",
+    "fcode": 3,
+    "reg": [2],
+    "len": 1,
+    "rspvalue": [
+      {
+        "stype": "ph",
+        "value": [3,4],
+        "unit": 100
+      }
+    ]
+  },
+  {
+    "type": "RAD_JC",
+    "fcode": 3,
+    "reg": [6],
+    "len": 1,
+    "rspvalue": [
+      {
+        "stype": "rad",
+        "value": [3,4],
+        "unit": 1
+      }
+    ]
+  },
+  {
+    "type": "SS_JC",
+    "fcode": 3,
+    "reg": [1],
+    "len": 2,
+    "rspvalue": [
+      {
+        "stype": "waTemp",
+        "value": [3,4],
+        "unit": 10
+      },
+      {
+        "stype": "ss",
+        "value": [5,6],
+        "unit": 1
+      }
+    ]
+  },
+  {
+    "type": "WCD_JC",
+    "fcode": 3,
+    "reg": [2],
+    "len": 2,
+    "rspvalue": [
+      {
+        "stype": "ec_u",
+        "value": [3,4,5,6],
+        "unit": 100
+      }
+    ]
+  },
+  {
+    "type": "NH4_JC",
+    "fcode": 3,
+    "reg": [2],
+    "len": 1,
+    "rspvalue": [
+      {
+        "stype": "nh4",
+        "value": [3,4],
+        "unit": 10
+      }
+    ]
+  },
+  {
+    "type": "NO3_JC",
+    "fcode": 3,
+    "reg": [2],
+    "len": 1,
+    "rspvalue": [
+      {
+        "stype": "no3",
+        "value": [3,4],
+        "unit": 10
+      }
+    ]
+  },
+  {
+    "type": "ENERGY_DLX",
+    "fcode": 3,
+    "reg": [0],
+    "len": 2,
+    "rspvalue": [
+      {
+        "stype": "engy_dlx",
+        "value": [3,4,5,6],
+        "unit": 100
+      }
+    ]
+  },
+  {
+    "type": "POWER_DLX",
+    "fcode": 3,
+    "reg": [777],
+    "len": 1,
+    "rspvalue": [
+      {
+        "stype": "pwr",
+        "value": [3,4],
+        "unit": 100
+      }
+    ]
+  },
+  {
+    "type": "VOLTAGE_DLX",
+    "fcode": 3,
+    "reg": [768],
+    "len": 3,
+    "rspvalue": [
+      {
+        "stype": "voltA",
+        "value": [3,4],
+        "unit": 10
+      },
+      {
+        "stype": "voltB",
+        "value": [5,6],
+        "unit": 10
+      },
+      {
+        "stype": "voltC",
+        "value": [7,8],
+        "unit": 10
+      }
+    ]
+  },
+  {
+    "type": "CURRENT_DLX",
+    "fcode": 3,
+    "reg": [771],
+    "len": 3,
+    "rspvalue": [
+      {
+        "stype": "currA",
+        "value": [3,4],
+        "unit": 100
+      },
+      {
+        "stype": "currB",
+        "value": [5,6],
+        "unit": 100
+      },
+      {
+        "stype": "currC",
+        "value": [7,8],
+        "unit": 100
+      }
+    ]
+  },
+  {
+    "type": "RELAY_DMA4",
+    "fcode": 1,
+    "reg": [0],
+    "len": 4,
+    "rspvalue": [
+      {
+        "stype": "relay_sta",
+        "value": [3],
+        "unit": 1
+      }
+    ]
+  },
+  {
+    "type": "RELAY_DMA8",
+    "fcode": 1,
+    "reg": [0],
+    "len": 8,
+    "rspvalue": [
+      {
+        "stype": "relay_sta",
+        "value": [3],
+        "unit": 1
+      }
+    ]
+  },
+  {
+    "type": "RELAY_DMA16",
+    "fcode": 1,
+    "reg": [0],
+    "len": 16,
+    "rspvalue": [
+      {
+        "stype": "relay_sta",
+        "value": [3,4],
+        "unit": 1
+      }
+    ]
+  },
+  {
+    "type": "RELAY_ZN7",
+    "fcode": 1,
+    "reg": [0],
+    "len": 7,
+    "rspvalue": [
+      {
+        "stype": "relay_sta",
+        "value": [3],
+        "unit": 1
+      }
+    ]
+  },
+  {
+    "type": "ACEC_PK",
+    "fcode": 3,
+    "reg": [3],
+    "len": 12,
+    "rspvalue": [
+      {
+        "stype": "acec1",
+        "value": [3,4],
+        "unit": 2000
+      },
+      {
+        "stype": "acec2",
+        "value": [5,6],
+        "unit": 2000
+      },
+      {
+        "stype": "acec3",
+        "value": [7,8],
+        "unit": 2000
+      },
+      {
+        "stype": "acec4",
+        "value": [9,10],
+        "unit": 2000
+      },
+      {
+        "stype": "acec5",
+        "value": [11,12],
+        "unit": 2000
+      },
+      {
+        "stype": "acec6",
+        "value": [13,14],
+        "unit": 2000
+      },
+      {
+        "stype": "acec7",
+        "value": [15,16],
+        "unit": 2000
+      },
+      {
+        "stype": "acec8",
+        "value": [17,18],
+        "unit": 2000
+      },
+      {
+        "stype": "acec9",
+        "value": [19,20],
+        "unit": 2000
+      },
+      {
+        "stype": "acec10",
+        "value": [21,22],
+        "unit": 2000
+      },
+      {
+        "stype": "acec11",
+        "value": [23,24],
+        "unit": 2000
+      },      {
+        "stype": "acec12",
+        "value": [25,26],
+        "unit": 2000
+      }
+    ]
+  },
+  {
+    "type": "DCEC_PK",
+    "fcode": 3,
+    "reg": [3],
+    "len": 4,
+    "rspvalue": [
+      {
+        "stype": "dcec1",
+        "value": [3,4],
+        "unit": 1000
+      },
+      {
+        "stype": "dcec2",
+        "value": [5,6],
+        "unit": 1000
+      },
+      {
+        "stype": "dcec3",
+        "value": [7,8],
+        "unit": 1000
+      },
+      {
+        "stype": "dcec4",
+        "value": [9,10],
+        "unit": 1000
+      }
+    ]
+  },
+  {
+    "type": "VOEC_PK",
+    "fcode": 3,
+    "reg": [3],
+    "len": 16,
+    "rspvalue": [
+      {
+        "stype": "vo",
+        "value": [3,4],
+        "unit": 333
+      },
+      {
+        "stype": "vo1",
+        "value": [5,6],
+        "unit": 333
+      },
+      {
+        "stype": "vo2",
+        "value": [7,8],
+        "unit": 333
+      },
+      {
+        "stype": "vo3",
+        "value": [9,10],
+        "unit": 333
+      },
+      {
+        "stype": "vo4",
+        "value": [11,12],
+        "unit": 333
+      },
+      {
+        "stype": "vo5",
+        "value": [13,14],
+        "unit": 333
+      },
+      {
+        "stype": "vo6",
+        "value": [15,16],
+        "unit": 333
+      },
+      {
+        "stype": "vo7",
+        "value": [17,18],
+        "unit": 333
+      },
+      {
+        "stype": "dcec5",
+        "value": [19,20],
+        "unit": 1000
+      },
+      {
+        "stype": "dcec6",
+        "value": [21,22],
+        "unit": 1000
+      },
+      {
+        "stype": "dcec7",
+        "value": [23,24],
+        "unit": 1000
+      },      {
+        "stype": "dcec8",
+        "value": [25,26],
+        "unit": 1000
+      },
+      {
+        "stype": "dcec9",
+        "value": [27,28],
+        "unit": 1000
+      },
+      {
+        "stype": "dcec10",
+        "value": [29,30],
+        "unit": 1000
+      },
+      {
+        "stype": "dcec11",
+        "value": [31,32],
+        "unit": 1000
+      },
+      {
+        "stype": "dcec12",
+        "value": [33,34],
+        "unit": 1000
+      }
+    ]
+  },{
+  "type": "LiquidLevel_JC",
+  "fcode": 3,
+  "reg": [0],
+  "len": 1,
+  "rspvalue": [
+    {
+      "stype": "liquidlevel",
+      "value": [3,4],
+      "unit": 100
+    }
+  ]
+},
+  {
+    "type": "DO_EW",
+    "fcode": 3,
+    "reg": [1],
+    "len": 1,
+    "rspvalue": [
+      {
+        "stype": "do",
+        "value": [3,4],
+        "unit": 10
+      }
+    ]
+  },
+  {
+    "type": "Chlorophy_JC",
+    "fcode": 3,
+    "reg": [2],
+    "len": 1,
+    "rspvalue": [
+      {
+        "stype": "chlorophy",
+        "value": [3,4],
+        "unit": 1
+      }
+    ]
+  }
+
+]

@@ -1,0 +1,207 @@
+[
+  {
+    "product": "air_temphumi",
+    "manuid":2,
+    "desc": "大气温湿度",
+    "params":[
+      {"reg":7, "envparam": "btyPer", "unit": 1},
+      {"reg":4097, "envparam": "temp", "unit": 1000},
+      {"reg":4098, "envparam": "humi", "unit": 1000}
+    ]
+  },
+
+  {
+    "product": "soid_temphumi",
+    "manuid":2,
+    "desc": "土壤温湿度",
+    "params":[
+      {"reg":7, "envparam": "btyPer", "unit": 1},
+      {"reg":4102, "envparam": "soilTemp", "unit": 1000},
+      {"reg":4103, "envparam": "soilHumi", "unit": 1000}
+    ]
+  },
+
+  {
+    "product": "soil_ec",
+    "manuid":2,
+    "desc": "土壤电导率",
+    "params":[
+      {"reg":7, "envparam": "btyPer", "unit": 1},
+      {"reg":4112, "envparam": "soilTemp", "unit": 1000},
+      {"reg":4110, "envparam": "soilHumi", "unit": 1000},
+      {"reg":4111, "envparam": "soilEC", "unit": 1000}
+    ]
+  },
+
+  {
+    "product": "illu",
+    "manuid":2,
+    "desc": "光照度",
+    "params":[
+      {"reg":7, "envparam": "btyPer", "unit": 1},
+      {"reg":4099, "envparam": "illu", "unit": 1000000}
+    ]
+  },
+
+  {
+    "product": "co2",
+    "manuid":2,
+    "desc": "二氧化碳含量",
+    "params":[
+      {"reg":7, "envparam": "btyPer", "unit": 1},
+      {"reg":4100, "envparam": "co2", "unit": 10000}
+    ]
+  },
+
+  {
+    "product": "par",
+    "manuid":2,
+    "desc": "光合作用光通量",
+    "params":[
+      {"reg":7, "envparam": "btyPer", "unit": 1},
+      {"reg":4107, "envparam": "ltQtm", "unit": 1000}
+    ]
+  },
+
+  {
+    "product": "windspeed",
+    "manuid":2,
+    "desc": "风速",
+    "params":[
+      {"reg":7, "envparam": "btyPer", "unit": 1},
+      {"reg":4105, "envparam": "windSpd", "unit": 1000}
+    ]
+  },
+
+  {
+    "product": "EP400",
+    "manuid":3,
+    "desc": "农芯EP400终端空气温湿度、土壤温湿度、光照、CO2、电池电压",
+    "params":[
+      {"reg":3, "envparam": "temp", "unit": 1},
+      {"reg":4, "envparam": "humi", "unit": 1},
+      {"reg":5, "envparam": "soilTemp", "unit": 1},
+      {"reg":6, "envparam": "soilHumi", "unit": 1},
+      {"reg":7, "envparam": "co2", "unit": 1},
+      {"reg":8, "envparam": "illu", "unit": 1},
+      {"reg":9, "envparam": "volt", "unit": 1}
+
+    ]
+  },
+  {
+    "product": "4G21",
+    "manuid":4,
+    "desc": "易通汇联十参数4G气象站网关",
+    "params":[
+      {"reg":5, "envparam": "humi", "unit": 10},
+      {"reg":6, "envparam": "temp", "unit": 10},
+      {"reg":7, "envparam": "illu", "unit": 1000},
+      {"reg":21, "envparam": "airPre", "unit": 1000},
+      {"reg":22, "envparam": "rain15Min", "unit": 10},
+      {"reg":23, "envparam": "windSpd_jc", "unit": 10},
+      {"reg":24, "envparam": "windDrct_jc", "unit": 1},
+      {"reg":25, "envparam": "soilHumi", "unit": 10},
+      {"reg":26, "envparam": "soilTemp", "unit": 10},
+      {"reg":27, "envparam": "soilTDS", "unit": 1},
+      {"reg":28, "envparam": "soilEC", "unit": 1},
+      {"reg":30, "envparam": "volt", "unit": 10}
+    ]
+  },
+
+  {
+    "product": "AQ20",
+    "manuid":4,
+    "desc": "易通汇联水质终端do、ph、水温、电池电压",
+    "params":[
+      {"reg":1, "envparam": "volt", "unit": 10},
+      {"reg":2, "envparam": "do", "unit": 10},
+      {"reg":3, "envparam": "ph", "unit": 10},
+      {"reg":4, "envparam": "waTemp", "unit": 10},
+      {"reg":17, "envparam": "doAD", "unit": 1},
+      {"reg":18, "envparam": "phAD", "unit": 1}
+    ]
+  },
+
+  {
+    "product": "LD10-WT",
+    "manuid":4,
+    "desc": "易通汇联气象站温湿度、光照、风向风速、24小时降雨量",
+    "params":[
+      {"reg":5, "envparam": "temp", "unit": 10},
+      {"reg":6, "envparam": "humi", "unit": 10},
+      {"reg":7, "envparam": "illu", "unit": 1000},
+      {"reg":8, "envparam": "windSpd", "unit": 100},
+      {"reg":9, "envparam": "windDrct", "unit": 10},
+      {"reg":10, "envparam": "rain24Hr", "unit": 10}
+    ]
+  },
+  {
+    "product": "AQ20-Pro",
+    "manuid":4,
+    "desc": "易通汇联五合一水质终端：溶解氧、水温、pH、ORP、EC(salt、TDS)",
+    "params":[
+      {"reg":1, "envparam": "volt", "unit": 10},
+      {"reg":2, "envparam": "do", "unit": 10},
+      {"reg":3, "envparam": "ph", "unit": 10},
+      {"reg":4, "envparam": "waTemp", "unit": 10},
+      {"reg":11, "envparam": "orp", "unit": 10},
+      {"reg":12, "envparam": "ec_u", "unit": 100},
+      {"reg":13, "envparam": "tds", "unit": 10},
+      {"reg":14, "envparam": "salt", "unit": 1},
+      {"reg":15, "envparam": "doSimu", "unit": 1},
+      {"reg":16, "envparam": "phSimu", "unit": 1},
+      {"reg":19, "envparam": "doFull", "unit": 100}
+    ]
+  },
+  {
+    "product": "AQ20-CTL",
+    "manuid":4,
+    "desc": "易通汇联控制终端",
+    "params":[
+      {"reg":20, "envparam": "relay_sta", "unit": 1}
+    ]
+  },
+  {
+    "product": "AT22",
+    "manuid":4,
+    "desc": "易通汇联水温终端：10个水温传感器",
+    "params":[
+      {"reg":32, "envparam": "waTemp1", "unit": 10},
+      {"reg":33, "envparam": "waTemp2", "unit": 10},
+      {"reg":34, "envparam": "waTemp3", "unit": 10},
+      {"reg":35, "envparam": "waTemp4", "unit": 10},
+      {"reg":36, "envparam": "waTemp5", "unit": 10},
+      {"reg":37, "envparam": "waTemp6", "unit": 10},
+      {"reg":38, "envparam": "waTemp7", "unit": 10},
+      {"reg":39, "envparam": "waTemp8", "unit": 10},
+      {"reg":40, "envparam": "waTemp9", "unit": 10},
+      {"reg":41, "envparam": "waTemp10", "unit": 10}
+    ]
+  },
+  {
+    "product": "LD10-MUX-TRAN",
+    "manuid":4,
+    "desc": "木兮有人平台用LD10透传终端",
+    "params":[
+      {"reg":48, "envparam": "temp", "unit": 10},
+      {"reg":49, "envparam": "humi", "unit": 10},
+      {"reg":50, "envparam": "illu", "unit": 1},
+      {"reg":51, "envparam": "co2", "unit": 1},
+      {"reg":52, "envparam": "soilTemp", "unit": 10},
+      {"reg":53, "envparam": "soilHumi", "unit": 100}
+    ]
+  },
+  {
+    "product": "LD10-SEIF",
+    "manuid":4,
+    "desc": "易通汇联气象站温湿度、光照、风向风速、24小时降雨量坤泰基地继电器电压电流",
+    "params":[
+      {"reg":5, "envparam": "temp", "unit": 10},
+      {"reg":6, "envparam": "humi", "unit": 10},
+      {"reg":7, "envparam": "illu", "unit": 1000},
+      {"reg":8, "envparam": "windSpd", "unit": 100},
+      {"reg":9, "envparam": "windDrct", "unit": 10},
+      {"reg":10, "envparam": "rain24Hr", "unit": 10}
+    ]
+  }
+]
